@@ -1,0 +1,31 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border-radius: 26px;
+    border: none;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    &_main {
+        width: 230px;
+        height: 57px;
+        display: block;
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        margin-top: 40px;
+        &:hover {
+            background-color: #33aaff;
+        }
+    }
+    &_price {
+        margin-top: 7px;
+        &:hover {
+            background-color: #dc5238;
+        }
+    }
+}

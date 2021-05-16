@@ -1,0 +1,53 @@
+.form {
+    text-align: center;
+    input {
+        width: 270px;
+        height: 47px;
+        border-radius: 26px;
+        border: 1px solid #898989;
+        padding-left: 29px;
+        margin: 16px 2px 0 2px;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+    }
+    &_consultation {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 71px;
+        width: 100%;
+        height: 166px;  
+        border: 1px solid #898989; 
+    }
+    &_question {
+        background-color: rgba(255,255,255, .7);
+        display: grid;
+        grid-template: 47px 73px 45px / repeat(3, auto);
+        padding: 17px 40px 25px 40px;
+        gap: 11px 4px;
+        align-items: center;
+        input {
+            margin: 0;
+            width: 100%;
+        }
+        textarea {
+            grid-column: 1 / 4;
+            border-radius: 10px;
+            height: 73px;
+            border: 1px solid #898989;
+            padding: 19px 0 0 26px;
+            font-size: 13px;
+            line-height: 13px;
+            font-weight: 300;
+            color: #101010;
+            resize: none;
+        }
+        .button {
+            grid-column: 2;
+            margin: 0 auto;
+        }
+    }
+}

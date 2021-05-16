@@ -1,0 +1,8 @@
+@mixin divider {
+    hr {
+        margin: 20px auto;
+        width: 150px;
+        border-bottom: none;
+        border-color: $main-color;
+    }
+} 
